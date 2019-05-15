@@ -1,0 +1,15 @@
+% Introduction
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{alwaysdisplaystyle}[2019/05/19 Forces many math symbols to default to display mode]
+
+% Inline style overrides
+\edef\inti{\textstyle\int}
+\edef\sumi{\textstyle\sum}
+\edef\prodi{\textstyle\prod}
+\edef\coprodi{\textstyle\coprod}
+
+% Make display style the default
+\edef\int{\displaystyle\int}
+\edef\sum{\displaystyle\sum}
+\edef\prod{\displaystyle\prod}
+\edef\coprod{\displaystyle\coprod}
